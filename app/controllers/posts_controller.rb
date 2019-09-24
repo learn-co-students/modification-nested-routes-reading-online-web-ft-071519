@@ -45,8 +45,9 @@ class PostsController < ApplicationController
 
     def update
         @post = Post.find(params[:id])
-        # @post = Author.find(params[:author_id]).posts.find(params[:id])
-        @post.update(params.require(:post))
+        # byebug
+        # @post.update(params.require(:post)) This line created an attributes error.
+        @post.update(post_params) #This worked instead.
         redirect_to post_path(@post)
     end
 
