@@ -17,16 +17,17 @@ class PostsController < ApplicationController
     end
 
     def new
-        # @post = Post.new
-        @post = Post.new(author_id: params[:aurthor_id])
-    end
-
-    def create
         if params[:author_id] && !Author.exists?(params[:author_id])
             redirect_to authors_path, alert: "Author not found."
         else
             @post = Post.new(author_id: params[:author_id])
         end
+    end
+
+    def create
+        @post = Post.new(post_params)
+        @post.save
+        redirect_to post_path(@post)
     end
 
     def edit
