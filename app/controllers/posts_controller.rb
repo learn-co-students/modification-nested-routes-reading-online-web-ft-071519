@@ -1,5 +1,4 @@
 class PostsController < ApplicationController
-
   def index
     if params[:author_id]
       @posts = Author.find(params[:author_id]).posts
@@ -17,7 +16,7 @@ class PostsController < ApplicationController
   end
 
   def new
-    @post = Post.new
+    @post = Post.new(author_id: params[:author_id])
   end
 
   def create
@@ -39,6 +38,6 @@ class PostsController < ApplicationController
   private
 
   def post_params
-    params.require(:post).permit(:title, :description)
+    params.require(:post).permit(:title, :description, :author_id)
   end
 end
