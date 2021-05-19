@@ -3742,3 +3742,803 @@ Processing by PostsController#show as HTML
   [1m[35mAuthor Load (0.1ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 2]]
   Rendered posts/show.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.1ms)
+Started GET "/" for 127.0.0.1 at 2019-10-17 00:00:47 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb (34.2ms)
+Completed 200 OK in 181ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (85.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 1]]
+  [1m[35m (60.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 2]]
+  [1m[35m (56.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 3]]
+  [1m[35m (84.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 4]]
+  [1m[35m (71.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 5]]
+  [1m[35m (114.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 6]]
+  [1m[35m (130.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 7]]
+  [1m[35m (96.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 8]]
+  [1m[35m (97.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 9]]
+  [1m[35m (113.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 10]]
+  [1m[35m (122.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 11]]
+  [1m[35m (147.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 12]]
+  [1m[35m (62.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 13]]
+  [1m[35m (55.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mAuthor Load (0.4ms)[0m  [1m[34mSELECT "authors".* FROM "authors"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "authors" WHERE "authors"."id" = ?[0m  [["id", 1]]
+  [1m[35m (103.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "authors" WHERE "authors"."id" = ?[0m  [["id", 2]]
+  [1m[35m (55.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "authors" WHERE "authors"."id" = ?[0m  [["id", 3]]
+  [1m[35m (121.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (30.9ms)[0m  [1m[32mINSERT INTO "authors" ("name", "genre", "bio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Stephen King"], ["genre", "Romance"], ["bio", "Writes a lot of scary things."], ["created_at", "2019-10-17 04:01:24.115373"], ["updated_at", "2019-10-17 04:01:24.115373"]]
+  [1m[35m (99.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "authors" ("name", "genre", "bio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Ariana Huffington"], ["genre", "Comedy"], ["bio", "Up and comer. One to watch."], ["created_at", "2019-10-17 04:01:24.248305"], ["updated_at", "2019-10-17 04:01:24.248305"]]
+  [1m[35m (70.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "authors" ("name", "genre", "bio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Horse Ebooks"], ["genre", "?????"], ["bio", "Eclectic."], ["created_at", "2019-10-17 04:01:24.323537"], ["updated_at", "2019-10-17 04:01:24.323537"]]
+  [1m[35m (121.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at", "author_id") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Something About Democrats"], ["description", "  Last night I dreamt there is more to life than to bully friends.\n  What has that got to do with Democrats, you probably wonder...\n  The answer is here. Right here. Back in school my hair was silly.\n  Nevermind about the details, but... In a nut-shell: And still,\n  it was strange. Using Google, I found a 12-sided dice.\n  Which would be nothing special but...\n"], ["created_at", "2019-10-17 04:01:24.459162"], ["updated_at", "2019-10-17 04:01:24.459162"], ["author_id", 4]]
+  [1m[35m (127.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at", "author_id") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Spam Spam Spam"], ["description", "  It occurred to me that no matter what cards you are dealt,\n  you need to enjoy the small joys. How is this related to Spam, you ask.\n  Fair enough. OK, I will tell you something here now...\n  Sometime around last year I loved movies. Yeah, just what it sounds like.\n  In a nut-shell: And still, it was strange. I collided with the powers of a my computer,\n  broken and gray. And here's why this matters...\n"], ["created_at", "2019-10-17 04:01:24.591191"], ["updated_at", "2019-10-17 04:01:24.591191"], ["author_id", 5]]
+  [1m[35m (86.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at", "author_id") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Links! Click Links!"], ["description", "  Last night I dreamt we simply need to realize to be so competitive.\n  Does the responsibility lie with Links, you probably wonder...\n  The answer is here. Right here. About the time I broke up with my\n  ex I was totally into music. Whatever. So that's that.\n  But something wasn't right. I stumbled upon a giant banana.\n"], ["created_at", "2019-10-17 04:01:24.682179"], ["updated_at", "2019-10-17 04:01:24.682179"], ["author_id", 6]]
+  [1m[35m (86.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "posts" SET "created_at" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["created_at", "2019-10-16 00:00:00"], ["updated_at", "2019-10-17 04:01:24.771996"], ["id", 16]]
+  [1m[35m (131.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/authors" for 127.0.0.1 at 2019-10-17 00:01:29 -0400
+Processing by AuthorsController#index as HTML
+  Rendering authors/index.html.erb within layouts/application
+  [1m[36mAuthor Load (16.7ms)[0m  [1m[34mSELECT "authors".* FROM "authors"[0m
+  Rendered authors/index.html.erb within layouts/application (57.1ms)
+Completed 200 OK in 7132ms (Views: 7093.4ms | ActiveRecord: 18.9ms)
+
+
+Started GET "/authors/4" for 127.0.0.1 at 2019-10-17 00:01:44 -0400
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAuthor Load (0.4ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering authors/show.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."author_id" = ?[0m  [["author_id", 4]]
+  Rendered authors/show.html.erb within layouts/application (128.5ms)
+Completed 200 OK in 189ms (Views: 169.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2019-10-17 00:02:42 -0400
+Processing by AuthorsController#index as HTML
+  Rendering authors/index.html.erb within layouts/application
+  [1m[36mAuthor Load (0.4ms)[0m  [1m[34mSELECT "authors".* FROM "authors"[0m
+  Rendered authors/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/authors/4" for 127.0.0.1 at 2019-10-17 00:02:44 -0400
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAuthor Load (0.5ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering authors/show.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."author_id" = ?[0m  [["author_id", 4]]
+  Rendered authors/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 30ms (Views: 16.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/authors/4/posts/new" for 127.0.0.1 at 2019-10-17 00:02:46 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"author_id"=>"4"}
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (297.6ms)
+  Rendered posts/new.html.erb within layouts/application (305.3ms)
+Completed 200 OK in 325ms (Views: 317.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2019-10-17 00:03:10 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ail4u5ymwRacFQg0rz7BTN164uciwq6SowfCkxfeXmyIyIIESaM6h0/T0M5nZSJg64xaClCT658RKhpiS6wDBw==", "post"=>{"title"=>"the wind", "description"=>"I listen to the wind"}, "commit"=>"Create Post"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Wind"], ["description", "I listen to the wind"], ["created_at", "2019-10-17 04:03:10.120566"], ["updated_at", "2019-10-17 04:03:10.120566"]]
+  [1m[35m (75.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://127.0.0.1:52602/posts/17
+Completed 302 Found in 83ms (ActiveRecord: 77.1ms)
+
+
+Started GET "/posts/17" for 127.0.0.1 at 2019-10-17 00:03:10 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 92ms (Views: 32.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts/17" for 127.0.0.1 at 2019-10-17 00:04:48 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 33ms (Views: 29.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/posts/17" for 127.0.0.1 at 2019-10-17 00:04:50 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2019-10-17 00:04:52 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VOU5aI+2rDzXFE1KTuU0irvviGF04B8gCcyJFzYZGMu2BMPXWrNXrQTSlbCGvtemjRkwjAaxWi274VHmamtFoA==", "post"=>{"title"=>"the wind", "description"=>"I listen to the wind"}, "commit"=>"Create Post"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Wind"], ["description", "I listen to the wind"], ["created_at", "2019-10-17 04:04:52.644484"], ["updated_at", "2019-10-17 04:04:52.644484"]]
+  [1m[35m (65.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://127.0.0.1:52602/posts/18
+Completed 302 Found in 69ms (ActiveRecord: 66.1ms)
+
+
+Started GET "/posts/18" for 127.0.0.1 at 2019-10-17 00:04:52 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2019-10-17 01:06:40 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VOU5aI+2rDzXFE1KTuU0irvviGF04B8gCcyJFzYZGMu2BMPXWrNXrQTSlbCGvtemjRkwjAaxWi274VHmamtFoA==", "post"=>{"title"=>"the wind", "description"=>"I listen to the wind"}, "commit"=>"Create Post"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "The Wind"], ["description", "I listen to the wind"], ["created_at", "2019-10-17 05:06:40.473365"], ["updated_at", "2019-10-17 05:06:40.473365"]]
+  [1m[35m (68.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://127.0.0.1:52602/posts/19
+Completed 302 Found in 80ms (ActiveRecord: 70.5ms)
+
+
+Started GET "/posts/19" for 127.0.0.1 at 2019-10-17 01:06:40 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 30ms (Views: 27.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/authors/4/posts/new" for 127.0.0.1 at 2019-10-17 01:09:32 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"author_id"=>"4"}
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (38.8ms)
+  Rendered posts/new.html.erb within layouts/application (48.4ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2019-10-17 01:09:37 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dQKhdm7NyfrJDdVjVBybLngDmAw88ML2xQmpCtcwJlqX41vJu8gyaxrLDZmcR3gCTvUg4U6hh/t3JHH7i0J7MQ==", "post"=>{"author_id"=>"4", "title"=>"the wind", "description"=>"adciahdowa"}, "commit"=>"Create Post"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at", "author_id") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Wind"], ["description", "adciahdowa"], ["created_at", "2019-10-17 05:09:37.035285"], ["updated_at", "2019-10-17 05:09:37.035285"], ["author_id", 4]]
+  [1m[35m (168.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://127.0.0.1:52602/posts/20
+Completed 302 Found in 174ms (ActiveRecord: 170.0ms)
+
+
+Started GET "/posts/20" for 127.0.0.1 at 2019-10-17 01:09:37 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mAuthor Load (0.3ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered posts/show.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 43ms (Views: 37.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/posts/20/edit" for 127.0.0.1 at 2019-10-17 01:11:35 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (1.6ms)
+  Rendered posts/edit.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 26ms (Views: 15.8ms | ActiveRecord: 0.9ms)
+
+
+Started PATCH "/posts/20" for 127.0.0.1 at 2019-10-17 01:11:38 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xIzSFiJD08OkI8Avi9U9TgKcwPNNvcn/d4+uWjX6W90mbSip90YoUnflGNVDjt5iNGp4Hj/sjPLFonaraYgGtg==", "post"=>{"author_id"=>"4", "title"=>"The Wind", "description"=>"zzz"}, "commit"=>"Update Post", "id"=>"20"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/posts_controller.rb:31:in `update'
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_shunal__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__2884388016994182855_70168274659540 at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (35.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (76.5ms)
+Started PATCH "/posts/20" for 127.0.0.1 at 2019-10-17 01:13:58 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k9CJt2FFnAWtMX04fu4ThMZEv42DIyLg9heztis7DqNxMXMItEBnlH73pcK2tfCo8LIHYPFyZ+1EOmtHd0lTyA==", "post"=>{"author_id"=>"4", "title"=>"The Wind", "description"=>"zzz"}, "commit"=>"Update Post", "id"=>"20"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/posts_controller.rb:31:in `update'
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_shunal__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__2884388016994182855_70168156860340 at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.5ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.6ms)
+Started GET "/posts/20/edit" for 127.0.0.1 at 2019-10-17 01:14:21 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (1.4ms)
+  Rendered posts/edit.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/posts/20" for 127.0.0.1 at 2019-10-17 01:14:23 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gs+xvggLKZ5YG26KPHl18IMZPrp0VMPritrrG5OqweVgLksB3Q7SD4vdtnD0Ipbcte+GVwYFhuY49zPqz9icjg==", "post"=>{"author_id"=>"4", "title"=>"The Wind", "description"=>"zxa"}, "commit"=>"Update Post", "id"=>"20"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/posts_controller.rb:31:in `update'
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (63.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_shunal__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__2884388016994182855_70168273243820 at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.7ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.3ms)
+Started PATCH "/posts/20" for 127.0.0.1 at 2019-10-17 01:15:50 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gs+xvggLKZ5YG26KPHl18IMZPrp0VMPritrrG5OqweVgLksB3Q7SD4vdtnD0Ipbcte+GVwYFhuY49zPqz9icjg==", "post"=>{"author_id"=>"4", "title"=>"The Wind", "description"=>"zxa"}, "commit"=>"Update Post", "id"=>"20"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.2ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/posts_controller.rb:31:in `update'
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_shunal__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__2884388016994182855_70168269325920 at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.2ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.2ms)
+Started PATCH "/posts/20" for 127.0.0.1 at 2019-10-17 01:16:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gs+xvggLKZ5YG26KPHl18IMZPrp0VMPritrrG5OqweVgLksB3Q7SD4vdtnD0Ipbcte+GVwYFhuY49zPqz9icjg==", "post"=>{"author_id"=>"4", "title"=>"The Wind", "description"=>"zxa"}, "commit"=>"Update Post", "id"=>"20"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.9ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/posts_controller.rb:31:in `update'
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_shunal__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__2470449507656750497_69951500338860 at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.9ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.9ms)
+Started GET "/posts/20/edit" for 127.0.0.1 at 2019-10-17 01:16:35 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (11.2ms)
+  Rendered posts/edit.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 534ms (Views: 532.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/20" for 127.0.0.1 at 2019-10-17 01:16:36 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered posts/show.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 54ms (Views: 36.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/posts/20" for 127.0.0.1 at 2019-10-17 01:16:37 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mAuthor Load (0.2ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered posts/show.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 42ms (Views: 38.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/posts/20" for 127.0.0.1 at 2019-10-17 01:16:37 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered posts/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/authors/4/posts/20/edit" for 127.0.0.1 at 2019-10-17 01:16:38 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"author_id"=>"4", "id"=>"20"}
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."author_id" = ? AND "posts"."id" = ? LIMIT ?[0m  [["author_id", 4], ["id", 20], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (2.0ms)
+  Rendered posts/edit.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 44ms (Views: 27.1ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/posts/20" for 127.0.0.1 at 2019-10-17 01:16:40 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1fpiqfjE0kNvHtqJ9g7YiTZjbnPy4I8qLoteNl2tcpM3G5gWLcEp0rzYAnM+VTulAJXWnoCxyiecpobHAd8v+A==", "post"=>{"author_id"=>"4", "title"=>"The Wind", "description"=>"xcz"}, "commit"=>"Update Post", "id"=>"20"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/posts_controller.rb:31:in `update'
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.1ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_shunal__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__2470449507656750497_69951500420420 at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.0ms)
+Started PATCH "/posts/20" for 127.0.0.1 at 2019-10-17 01:17:16 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1fpiqfjE0kNvHtqJ9g7YiTZjbnPy4I8qLoteNl2tcpM3G5gWLcEp0rzYAnM+VTulAJXWnoCxyiecpobHAd8v+A==", "post"=>{"author_id"=>"4", "title"=>"The Wind", "description"=>"xcz"}, "commit"=>"Update Post", "id"=>"20"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 1.3ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/posts_controller.rb:35:in `update'
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_shunal__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__2470449507656750497_69951514586160 at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.8ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.4ms)
+Started PATCH "/posts/20" for 127.0.0.1 at 2019-10-17 01:17:18 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XTwAFUofZ9W4yZkFc8GYi5TVZJqIqrHtmSFpR0Ul1pe/3fqqnxqcRGsPQf+7mnunoiPcd/r79OArDLG2GVeL/A==", "post"=>{"author_id"=>"4", "title"=>"The Wind", "description"=>"xcz"}, "commit"=>"Update Post", "id"=>"20"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/posts_controller.rb:35:in `update'
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_shunal__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__2470449507656750497_69951518289980 at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.2ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.6ms)
+Started GET "/" for 127.0.0.1 at 2019-10-17 20:33:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb (35.6ms)
+Completed 200 OK in 255ms (Views: 117.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2019-10-17 20:33:34 -0400
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (16.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  [1m[36mAuthor Load (0.2ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mAuthor Load (0.1ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendered posts/index.html.erb within layouts/application (280.8ms)
+Completed 500 Internal Server Error in 564ms (ActiveRecord: 18.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    2: <% @posts.each do |post| %>
+    3:   <div>
+    4:     <h2><%= post.title %></h2>
+    5:     <h3>by: <%= link_to post.author.name, author_posts_path(post.author) %></h3>
+    6:     <p><%= post.description %></p>
+    7:   </div>
+    8: <% end %>
+  
+app/views/posts/index.html.erb:5:in `block in _app_views_posts_index_html_erb__824120059949777292_70368483014460'
+app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb__824120059949777292_70368483014460'
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (290.4ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from block in render_exception_with_web_console at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/extensions.rb:16)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_shunal__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__4564782940870489117_70368465614340 at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (296.1ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (447.3ms)
+Started GET "/authors" for 127.0.0.1 at 2019-10-17 20:33:40 -0400
+Processing by AuthorsController#index as HTML
+  Rendering authors/index.html.erb within layouts/application
+  [1m[36mAuthor Load (0.3ms)[0m  [1m[34mSELECT "authors".* FROM "authors"[0m
+  Rendered authors/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1415ms (Views: 1402.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/authors/4" for 127.0.0.1 at 2019-10-17 20:33:44 -0400
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAuthor Load (0.7ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering authors/show.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."author_id" = ?[0m  [["author_id", 4]]
+  Rendered authors/show.html.erb within layouts/application (69.3ms)
+Completed 200 OK in 126ms (Views: 83.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/authors/4/posts/new" for 127.0.0.1 at 2019-10-17 20:33:57 -0400
+Processing by PostsController#new as HTML
+  Parameters: {"author_id"=>"4"}
+  [1m[36mAuthor Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (179.0ms)
+  Rendered posts/new.html.erb within layouts/application (193.0ms)
+Completed 200 OK in 380ms (Views: 211.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2019-10-17 20:34:00 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OLXH1fm1YGk9oa1TRtuUveC2Vud6615Mfrd4kH+O+jis/YVJL6EkWR73oewkXJCK9U77zyjUu2JrdaV5wVZYPQ==", "post"=>{"author_id"=>"4", "title"=>"the wind", "description"=>"asdasda"}, "commit"=>"Create Post"}
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (14.6ms)[0m  [1m[32mINSERT INTO "posts" ("title", "description", "created_at", "updated_at", "author_id") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Wind"], ["description", "asdasda"], ["created_at", "2019-10-18 00:34:00.760205"], ["updated_at", "2019-10-18 00:34:00.760205"], ["author_id", 4]]
+  [1m[35m (187.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://127.0.0.1:49798/posts/21
+Completed 302 Found in 212ms (ActiveRecord: 203.1ms)
+
+
+Started GET "/posts/21" for 127.0.0.1 at 2019-10-17 20:34:01 -0400
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mAuthor Load (0.3ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered posts/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 87ms (Views: 42.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/authors/4/posts/21/edit" for 127.0.0.1 at 2019-10-17 20:34:05 -0400
+Processing by PostsController#edit as HTML
+  Parameters: {"author_id"=>"4", "id"=>"21"}
+  [1m[36mAuthor Load (0.8ms)[0m  [1m[34mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."author_id" = ? AND "posts"."id" = ? LIMIT ?[0m  [["author_id", 4], ["id", 21], ["LIMIT", 1]]
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (1.2ms)
+  Rendered posts/edit.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 26ms (Views: 19.8ms | ActiveRecord: 1.1ms)
+
+
+Started PATCH "/posts/21" for 127.0.0.1 at 2019-10-17 20:34:07 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p2v7IBDHCiZPIuackE7CVngAmFAFpgdeRxCIZi9d7BIzI7m8xtNOFmx06iPyycZhbfg1eFeZ4nBS0lWPkYVOFw==", "post"=>{"author_id"=>"4", "title"=>"The Wind", "description"=>"asdasdasadzz"}, "commit"=>"Update Post", "id"=>"21"}
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.8ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/posts_controller.rb:35:in `update'
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_shunal__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__4564782940870489117_70038368324460 at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.1ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.0ms)
+Started PATCH "/posts/21" for 127.0.0.1 at 2019-10-17 20:38:04 -0400
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rPtStastBWNJtWp9wY9WIvh1R8b7NGKO6fWTBlZqOEQ4sxApfTlBU2rjZsKjCFIV7Y3q7qkLh6D8N07v6LKaQQ==", "post"=>{"author_id"=>"4", "title"=>"The Wind", "description"=>"asdasdasadzz"}, "commit"=>"Update Post", "id"=>"21"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.0ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/posts_controller.rb:35:in `update'
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __home_shunal__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__4564782940870489117_70038300205900 at /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.5ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/shunal/.rvm/gems/ruby-2.6.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.9ms)
